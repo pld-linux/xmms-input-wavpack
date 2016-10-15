@@ -2,7 +2,7 @@ Summary:	XMMS plugin for playing wavpack files
 Summary(pl.UTF-8):	Wtyczka wejściowa dla XMMS-a odtwarzająca pliki wavpack
 Name:		xmms-input-wavpack
 Version:	1.0.3
-Release:	2
+Release:	3
 License:	GPL v2+
 Group:		X11/Applications/Sound
 #Source0Download: http://www.wavpack.com/downloads.html
@@ -21,7 +21,6 @@ BuildRequires:	wavpack-devel >= 4.40
 BuildRequires:	xmms-devel >= 1.2.10
 Requires:	glib >= 1.2.10
 Requires:	gtk+ >= 1.2.2
-Requires:	libwavpack >= 0.7
 Requires:	wavpack >= 4.40
 Requires:	xmms >= 1.2.10
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
